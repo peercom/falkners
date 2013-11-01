@@ -62,6 +62,20 @@ footer {
 	background: url(/assets/footer_bg.png) no-repeat;
 }
 
+footer li {
+	list-style-type: none;
+	float: right;
+	font-size: 10px;
+	padding: 5px;
+}
+
 footer p {
+	float: right;
+}
+
+footer a {
+	display: block;
+	color: #cfdef8;
+	text-decoration: none;
 	float: right;
 }
