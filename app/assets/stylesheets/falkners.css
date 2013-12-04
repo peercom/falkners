@@ -10,7 +10,15 @@ p {
 
 h1 {
 	color: #ffffff;
-	font-size: 17px;
+	font-size: 24px;
+}
+
+h1, h2, h3 ,h4 {
+	font-family: 'Lobster Two', cursive;
+}
+
+a {
+	color: white;
 }
 
 #page_container {
@@ -51,7 +59,20 @@ header#header li a {
 section#page {
 	width: 1078px;
 	border: 0;
+	z-index: 100;
+	position: relative;
 }
+
+section#body {
+	z-index: 100;
+}
+
+label{
+  display: block;
+  float: left;
+  width : 120px;    
+}
+
 
 #page_container>footer {
 	position: relative;
@@ -60,7 +81,6 @@ section#page {
 	width: 1050px;
 	height: 50px;
 	background: url(/assets/footer_bg.png) no-repeat;
-	z-index: -10;
 }
 
 #page_container>footer li {
@@ -68,7 +88,7 @@ section#page {
 	float: right;
 	font-size: 10px;
 	padding: 5px;
-	z-index: 10;
+	z-index: 100;
 }
 
 #page_container>footer p {
@@ -80,6 +100,8 @@ section#page {
 	color: #cfdef8;
 	text-decoration: none;
 	float: right;
+	z-index: 100;
+	position: relative;
 }
 
 
@@ -89,6 +111,7 @@ section#page {
 
 .polaroid-images {
 	float: left;
+	z-index: 100;
 }
 
 .polaroid-images a
@@ -106,7 +129,7 @@ section#page {
 	-webkit-transition: all .15s linear;
 	-moz-transition: all .15s linear;
 	transition: all .15s linear;
-	z-index:0;
+	z-index: 100;
     position:relative;
 }
 
@@ -158,4 +181,11 @@ section#page {
 	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
         box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
+
+.pagination {
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
