@@ -1,7 +1,7 @@
 set :stage, :production
 
 set :user, "rails"
-set :deploy_to, "/home/rails/#{application}_production"
+set :deploy_to, "/home/rails/falkners_production"
 set :rails_env, "production"
 set :branch, "master"
 

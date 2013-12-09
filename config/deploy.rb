@@ -6,7 +6,7 @@ set :rvm_type, :user
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
 set :scm, :git
-set :repository, "./.git"
+set :repo_url, "https://git@github.com/peercom/falkners.git"
 set :local_repository, './.git'
 set :deploy_via, :copy
 set :git_shallow_clone, 1

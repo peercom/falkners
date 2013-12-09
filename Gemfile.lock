@@ -63,6 +63,8 @@ GEM
       i18n
       rake (>= 10.0.0)
       sshkit (>= 0.0.23)
+    capistrano-rails (1.0.0)
+      capistrano
     carrierwave (0.6.2)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
@@ -246,6 +248,7 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano
+  capistrano-rails
   coffee-rails (~> 3.2.1)
   colorbox-rails
   jquery-rails
