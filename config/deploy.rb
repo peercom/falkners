@@ -1,4 +1,6 @@
-set :application, 'falners'
+require "rvm/capistrano"
+
+set :application, 'falkners'
 
 set :rvm_ruby_string, '1.9.3@refinery'        # Or whatever env you want it to run in.
 set :rvm_type, :user
