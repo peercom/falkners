@@ -23,6 +23,7 @@ set :scm_verbose, true
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 # set :keep_releases, 5
 
+
 namespace :deploy do
 
   desc 'Restart application'
