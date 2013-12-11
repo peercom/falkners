@@ -1,8 +1,7 @@
-require "rvm/capistrano"
 
 set :application, 'falkners'
 
-set :rvm_ruby_string, '1.9.3@refinery'        # Or whatever env you want it to run in.
+set :rvm_ruby_version, '1.9.3@refinery'        # Or whatever env you want it to run in.
 set :rvm_type, :user
 
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
