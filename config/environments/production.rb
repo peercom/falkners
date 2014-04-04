@@ -52,6 +52,16 @@ Falkners::Application.configure do
   if config.respond_to?(:action_mailer)
     # config.action_mailer.raise_delivery_errors = false
   end
+  
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address:              'smtp.1und1.de',
+    port:                 587,
+    domain:               'falkners-hannover.de',
+    user_name:            'info@falkners-hannover.de',
+    password:             'MP190869',
+    authentication:       'plain',
+    enable_starttls_auto: true  }
 
   # Enable threaded mode
   # config.threadsafe!
